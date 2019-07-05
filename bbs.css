@@ -1,0 +1,75 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#app > .navbar {
+  height: 70px;
+}
+
+h1 {
+  font-size: 20px;
+  background: #fffacd;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+#content_top {
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul > li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.item > a {
+  font-size: 30px;
+}
+
+li > .create_at {
+  float: right;
+}
+
+.build {
+  font-size: 12px;
+}
+
+.new , .prev {
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+}
+
+.comment {
+  font-size: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* 新規スレッド作成フォーム */
+input[type="text"], textarea {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 5px;
+}
+
+.error {
+  font-size: 12px;
+  color: tomato;
+}
+
+h2 {
+  font-size: 14px;
+  padding-top: 25px;
+}
